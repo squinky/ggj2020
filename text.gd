@@ -1,12 +1,13 @@
 extends Node
 
 var dictionary = {
-	"test": [
-		"You clicked on a thing. Way to go.",
-		"Yay, you clicked on the thing.",
-		"Good job, you clicked on the thing."
-	],
-	"couch": [
-		"Let's see what happens if we put in a really long line of text. Like, say, this one. How do we feel about that?"
+	"start" : "Recovering from surgery should be easy, right?",
+	"burrito": [
+		"SO BORED",
+		"When does roommate come home?",
+		"I hurt all over.",
+		"What time is it?",
+		"It is a human burrito!",
+		"Maybe more goblin than human - haven't seen the sun in a while."
 	]
 }

@@ -29,29 +29,29 @@ bg_color = Color( 0, 0, 0, 1 )
 [node name="main" type="Node2D"]
 script = ExtResource( 3 )
 
-[node name="tvtable" type="Sprite" parent="."]
+[node name="sprites" type="Node2D" parent="."]
+
+[node name="couch" type="Sprite" parent="sprites"]
+position = Vector2( 1265.81, 555.688 )
+texture = ExtResource( 5 )
+
+[node name="humanburrito" type="Sprite" parent="sprites"]
+position = Vector2( 1335, 514.575 )
+texture = ExtResource( 7 )
+script = ExtResource( 2 )
+id = "burrito"
+
+[node name="coffeetable" type="Sprite" parent="sprites"]
+position = Vector2( 1364.24, 837.399 )
+texture = ExtResource( 4 )
+
+[node name="tvtable" type="Sprite" parent="sprites"]
 position = Vector2( 532.078, 945.485 )
 texture = ExtResource( 1 )
 
-[node name="clickables" type="Node2D" parent="."]
-
-[node name="couch" type="Sprite" parent="clickables"]
-position = Vector2( 1265.81, 555.688 )
-texture = ExtResource( 5 )
-script = ExtResource( 2 )
-id = "couch"
-
-[node name="humanburrito" type="Sprite" parent="clickables"]
-position = Vector2( 1335, 514.575 )
-texture = ExtResource( 7 )
-
-[node name="television" type="Sprite" parent="clickables"]
+[node name="television" type="Sprite" parent="sprites"]
 position = Vector2( 380.514, 788.75 )
 texture = ExtResource( 8 )
-
-[node name="coffeetable" type="Sprite" parent="."]
-position = Vector2( 1364.24, 837.399 )
-texture = ExtResource( 4 )
 
 [node name="textbox" type="Label" parent="."]
 margin_left = 50.0
@@ -75,7 +75,6 @@ margin_right = 1870.0
 margin_bottom = 130.0
 custom_styles/fg = SubResource( 3 )
 custom_styles/bg = SubResource( 4 )
-value = 69.0
 percent_visible = false
 __meta__ = {
 "_edit_use_anchors_": false
