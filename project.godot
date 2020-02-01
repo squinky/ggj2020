@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="GGJ 2020"
 run/main_scene="res://main.tscn"
-config/icon="res://icon.png"
+config/icon="res://images/icon.png"
 
 [autoload]
 
