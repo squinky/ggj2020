@@ -1,8 +1,13 @@
 extends Node
 
 var dictionary = {
-	"start": "Recovering from surgery should be easy, right?",
-	"ouch": "OW OW OW OW OW OW OW OW OW OW OW OW OW",
+	"start": [
+		"All I gotta do is lie here. Sounds easy enough, right?"
+	],
+	"ouch": [
+		"OW OW OW OW OW OW OW OW OW OW OW OW OW",
+		"OW OW OW TOO SOON OW OW OW"
+	],
 	"cat": [
 		"I’d scratch that belly SO HARD if I could only reach it.",
 		"Me-owwwww.",
@@ -76,5 +81,14 @@ var dictionary = {
 	],
 	"tv": [
 		"*tv noises*"
+	],
+	"phone": [
+		"Not even twitter memes will save me."
+	],
+	"tissues": [
+		"Fun fact: the plural of kleenex is kleenices."
+	],
+	"remote": [
+		"It's been out of batteries since 2013."
 	]
 }
