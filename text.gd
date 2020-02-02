@@ -14,7 +14,7 @@ var dictionary = {
 	"door": [
 		"Oh no, no way to be ready for that yet.",
 		"The door itself is too far away, let alone the world on the other side of it.",
-		"A surfboard with hinges, beyond which lies a yawning, terrifying ocean.",
+		"A surfboard with hinges, beyond which lies a terrifying ocean.",
 		"What lies beyond?"
 	],
 	"pills": [
