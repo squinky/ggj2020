@@ -32,4 +32,5 @@ func _on_click(_id):
 func _on_ouch():
 	time_elapsed -= 10
 	$textbox.text = text.dictionary["ouch"]
+	$klaxon.play()
 	$camera.shake()

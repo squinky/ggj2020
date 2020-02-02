@@ -17,6 +17,11 @@ var dictionary = {
 		"A surfboard with hinges, beyond which lies a yawning, terrifying ocean.",
 		"What lies beyond?"
 	],
+	"pills": [
+		"Is it that time yet?",
+		"Sweet, sweet drugs.",
+		"What does “rx” even mean? Is it a type of dinosaur?"
+	],
 	"tv": [
 		"*tv noises*"
 	]
