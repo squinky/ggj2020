@@ -21,12 +21,13 @@ _global_script_class_icons={
 [application]
 
 config/name="Rest Rest Convalesce"
-run/main_scene="res://main.tscn"
+run/main_scene="res://splash.tscn"
 config/icon="res://images/icon.png"
 
 [autoload]
 
 text="*res://text.gd"
+scene_changer="*res://scene_changer.tscn"
 
 [display]
 

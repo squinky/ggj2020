@@ -15,11 +15,14 @@ func _ready():
 	$textbox.text = get_random_line("start")
 
 func _process(delta):
-	time_since_clicked += delta
-	if time_elapsed < 0:
-		time_elapsed = 0
-	time_elapsed += delta
-	$progress.value = time_elapsed/time_total * 100
+	if $progress.value < 100:
+		time_since_clicked += delta
+		if time_elapsed < 0:
+			time_elapsed = 0
+		time_elapsed += delta
+		$progress.value = time_elapsed/time_total * 100
+		if $progress.value == 100:
+			scene_changer.change_scene("res://splash.tscn")
 
 func _on_click(_id):
 	if time_since_clicked > 0:
