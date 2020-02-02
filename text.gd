@@ -6,7 +6,8 @@ var dictionary = {
 	],
 	"ouch": [
 		"OW OW OW OW OW OW OW OW OW OW OW OW OW",
-		"OW OW OW TOO SOON OW OW OW"
+		"OW OW OW TOO SOON OW OW OW",
+		"YEOWCH!"
 	],
 	"cat": [
 		"I’d scratch that belly SO HARD if I could only reach it.",
@@ -20,23 +21,28 @@ var dictionary = {
 		"Probably just stealing my heat, but still pretty sweet."
 	],
 	"burrito": [
-		"SO BORED",
-		"When does roommate come home?",
+		"The surgery was the easy part! Now comes the convalescence...",
+		"Here I lie, a human burrito, bored as heck, smelling a bit like a cheetoh.",
+		"Gotta be careful not to stretch my stitches!",
+		"SO BORED.",
+		"When does the roommate come home?",
 		"I hurt all over.",
 		"What time is it?",
-		"It is a human burrito!",
+		"It is a human burrito! The worst kind! But the comfiest.",
 		"It doesn't hurt so long as I don't move any part of my body!",
 		"Feeling fine, beyond the stitches holding it all together.",
 		"Maybe more goblin than human - haven't seen the sun in a while.",
 		"What a fine-looking swamp creature -- great hair!",
 		"A non-binary babe if I ever saw one!",
-		"A cocoon of soft. - The burrito snores loudly. - Ouch! Time heals all wounds.",
+		"My haiku: A cocoon of soft. - The burrito snores loudly. - Ouch! Time heals all wounds.",
+		"Time has lost all meaning. I will be here forever.",
 		"I forget what faces look like."
 	],
 	"plant": [
 		"Looks thirsty, but I can’t water it from here.",
 		"Is it still alive?",
 		"O sun-drenched beauty! O wondrous drinker!",
+		"I call that one Eeyore so I feel guilty when I don't water it.",
 		"Rustle your leaves to me softly.",
 		"Ever wonder what your plants are thinking?",
 		"Do plants have goals - desires beyond just surviving and propagating?",
@@ -53,6 +59,7 @@ var dictionary = {
 		"A glass of water is basically a domesticated puddle. Think about it."
 	],
 	"pills": [
+		"Is there a pill that wakes me up when the healing's done?",
 		"Is it that time yet?",
 		"Sweet, sweet drugs.",
 		"What does “rx” even mean? Is it a type of dinosaur?",
