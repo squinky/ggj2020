@@ -1,4 +1,5 @@
 extends Sprite
+class_name Clickable
 
 signal clicked
 signal ouch

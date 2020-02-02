@@ -4,33 +4,41 @@ var time_elapsed = 0
 var time_total = 300
 var last_clicked = null
 var last_line = null
+var time_since_clicked = 0
 
 func _ready():
 	randomize()
 	for sprite in $sprites.get_children():
-		sprite.connect("clicked", self, "_on_click")
-		sprite.connect("ouch", self, "_on_ouch")
-	$textbox.text = text.dictionary["start"]
+		if sprite is Clickable:
+			sprite.connect("clicked", self, "_on_click")
+			sprite.connect("ouch", self, "_on_ouch")
+	$textbox.text = get_random_line("start")
 
 func _process(delta):
+	time_since_clicked += delta
 	if time_elapsed < 0:
 		time_elapsed = 0
 	time_elapsed += delta
 	$progress.value = time_elapsed/time_total * 100
 
 func _on_click(_id):
-	var textarray = text.dictionary[_id]
-	var line = randi() % textarray.size()
-	# prevent the same line from repeating twice in a row
-	if textarray.size() > 1:
-		while last_clicked == _id && last_line == line:
-			line = randi() % textarray.size()
-	$textbox.text = textarray[line]
-	last_clicked = _id
-	last_line = line
+	if time_since_clicked > 0:
+		$textbox.text = get_random_line(_id)
+	time_since_clicked = 0
 
 func _on_ouch():
 	time_elapsed -= 10
-	$textbox.text = text.dictionary["ouch"]
+	$textbox.text = get_random_line("ouch")
 	$klaxon.play()
 	$camera.shake()
+
+func get_random_line(id):
+	var textarray = text.dictionary[id]
+	var line = randi() % textarray.size()
+	# prevent the same line from repeating twice in a row
+	if textarray.size() > 1:
+		while last_clicked == id && last_line == line:
+			line = randi() % textarray.size()
+	last_clicked = id
+	last_line = line
+	return textarray[line]
