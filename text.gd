@@ -2,7 +2,7 @@ extends Node
 
 var dictionary = {
 	"start": [
-		"All I gotta do is lie here. Sounds easy enough, right?"
+		"Post-surgery recovery. All I gotta do is lie here. Sounds easy enough, right?"
 	],
 	"ouch": [
 		"OW OW OW OW OW OW OW OW OW OW OW OW OW",
@@ -34,7 +34,8 @@ var dictionary = {
 		"Maybe more goblin than human - haven't seen the sun in a while.",
 		"What a fine-looking swamp creature -- great hair!",
 		"A non-binary babe if I ever saw one!",
-		"My haiku: A cocoon of soft. - The burrito snores loudly. - Ouch! Time heals all wounds.",
+		"A haiku: A cocoon of soft. - The burrito snores loudly. - Ouch! Time heals all wounds.",
+		"A haiku: Boredom sets in quick. - The television drones on. - Look, a streaking cat!"
 		"Time has lost all meaning. I will be here forever.",
 		"I forget what faces look like."
 	],
@@ -84,6 +85,7 @@ var dictionary = {
 		"I'm really not hungry.",
 		"Sustenance. But that bread looks awful dry.",
 		"If I stare at it long enough, maybe I can pretend it's sushi.",
+		"I think that's egg salad. I...don't remember how long that's been there.",
 		"A half-eaten sandwich. Yum."
 	],
 	"tv": [
@@ -107,6 +109,7 @@ var dictionary = {
 		"Great for cleaning up when I inevitably knock over that glass of water trying to reach for it.",
 		"My cat likes to steal these and chew them... even the used ones. Especially the used ones. My little weirdo.",
 		"Can't make recreational use of these for a while, unfortunately.",
+		"Could I make origami out of those?"
 	],
 	"remote": [
 		"It's been out of batteries since 2013.",
