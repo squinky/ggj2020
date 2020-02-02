@@ -84,7 +84,8 @@ var dictionary = {
 		"After a while, it all kind of blurs together.",
 		"Wow, 90s children movies are actually really racist.",
 		"Daytime television is its own special kind of hell.",
-		"Why is choosing what to watch so hard?"
+		"Why is choosing what to watch so hard?",
+		"You'd think having permission to just watch TV all day would be awesome."
 	],
 	"phone": [
 		"Not even twitter memes will save me.",
@@ -96,7 +97,9 @@ var dictionary = {
 	],
 	"tissues": [
 		"Fun fact: the plural of kleenex is kleenices.",
-		"Great for cleaning up when I inevitably knock over that glass of water trying to reach for it."
+		"Great for cleaning up when I inevitably knock over that glass of water trying to reach for it.",
+		"My cat likes to steal these and chew them... even the used ones. Especially the used ones. My little weirdo.",
+		"Can't make recreational use of these for a while, unfortunately.",
 	],
 	"remote": [
 		"It's been out of batteries since 2013.",
