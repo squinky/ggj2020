@@ -18,8 +18,9 @@ func _input(event):
 					emit_signal("ouch")
 					return
 			if has_node("sounds"):
-				var soundarray = $sounds.get_children()
-				soundarray[randi() % soundarray.size()].play()
+				for s in $sounds.get_children():
+					s.stop()
+				$sounds.get_child(randi() % $sounds.get_child_count()).play()
 			emit_signal("clicked", id)
 
 func _process(delta):

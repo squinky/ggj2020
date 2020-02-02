@@ -22,8 +22,9 @@ func _on_click(_id):
 	var textarray = text.dictionary[_id]
 	var line = randi() % textarray.size()
 	# prevent the same line from repeating twice in a row
-	while last_clicked == _id && last_line == line:
-		line = randi() % textarray.size()
+	if textarray.size() > 1:
+		while last_clicked == _id && last_line == line:
+			line = randi() % textarray.size()
 	$textbox.text = textarray[line]
 	last_clicked = _id
 	last_line = line
