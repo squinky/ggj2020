@@ -64,7 +64,7 @@ var dictionary = {
 		"Sweet, sweet drugs.",
 		"What does “rx” even mean? Is it a type of dinosaur?",
 		"Wouldn't want to overdo it with those.",
-		"Why do we call them pills anyway? Is it a portmanteau of 'potion' and 'ill'? ... Probably not, but it should be.",
+		"Why do we call them pills anyway? Is it a portmanteau of 'potion' and 'ill'? ... Probably not.",
 		"Healing takes time. These help a little.",
 		"Why can’t painkillers come in fun colours and shapes, like chewable vitamins?"
 	],
