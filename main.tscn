@@ -279,13 +279,13 @@ stream = ExtResource( 12 )
 margin_left = 50.0
 margin_top = 50.0
 margin_right = 1870.0
-margin_bottom = 180.0
+margin_bottom = 250.0
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 align = 1
 autowrap = true
-max_lines_visible = 1
+max_lines_visible = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
