@@ -40,7 +40,7 @@ var dictionary = {
 		"Rustle your leaves to me softly.",
 		"Ever wonder what your plants are thinking?",
 		"Do plants have goals - desires beyond just surviving and propagating?",
-		"I once accidentally mummified a plant.",
+		"I once accidentally mummified a plant. It stayed on the windowsill for three years.",
 		"You’re still my friend, right?"
 	],
 	"water": [
@@ -57,7 +57,7 @@ var dictionary = {
 		"Sweet, sweet drugs.",
 		"What does “rx” even mean? Is it a type of dinosaur?",
 		"Wouldn't want to overdo it with those.",
-		"Why do we call them pills anyway? Is it a portmanteau of 'potion' and 'ill'? ... Probably not.",
+		"Why do we call them pills anyway? Is it a portmanteau of 'potion' and 'ill'? ... Probably not, but it should be.",
 		"Healing takes time. These help a little.",
 		"Why can’t painkillers come in fun colours and shapes, like chewable vitamins?"
 	],
@@ -80,15 +80,28 @@ var dictionary = {
 		"A half-eaten sandwich. Yum."
 	],
 	"tv": [
-		"*tv noises*"
+		"*tv noises*",
+		"After a while, it all kind of blurs together.",
+		"Wow, 90s children movies are actually really racist.",
+		"Daytime television is its own special kind of hell.",
+		"Why is choosing what to watch so hard?"
 	],
 	"phone": [
-		"Not even twitter memes will save me."
+		"Not even twitter memes will save me.",
+		"My phone -- a portal to the outside world and my friends.",
+		"Let's look up the queer monarchs of England on Wikipedia... Wow, King James gave them a whole Bible to leave him alone.",
+		"Actually...let's not check the news right now.",
+		"I don't want to be a burden to my friends... I know I'm not, but it still feels that way sometimes.",
+		"Love-hate defined: when your phone wakes you up at six in the morning to take your pain medication."
 	],
 	"tissues": [
-		"Fun fact: the plural of kleenex is kleenices."
+		"Fun fact: the plural of kleenex is kleenices.",
+		"Great for cleaning up when I inevitably knock over that glass of water trying to reach for it."
 	],
 	"remote": [
-		"It's been out of batteries since 2013."
+		"It's been out of batteries since 2013.",
+		"An ancient artefact from before people just used consoles and their computers to stream things from the Internet.",
+		"What got spilled on this? It seems a little... sticky.",
+		"That's a lot of buttons that I never use."
 	]
 }
